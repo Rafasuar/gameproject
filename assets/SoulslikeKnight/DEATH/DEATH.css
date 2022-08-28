@@ -1,0 +1,35 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.soulslike_knight_01_death {max-width:512px; max-height:512px; }
+.soulslike_knight_01_death::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 0.09727626459143969% 0.09727626459143969%;background-size: 300.78125% 300.78125%;background-image: url(DEATH.png);padding: 0; }
+div.soulslike_knight_01_death::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+.soulslike_knight_02_death {max-width:512px; max-height:512px; }
+.soulslike_knight_02_death::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 0.09727626459143969% 50%;background-size: 300.78125% 300.78125%;background-image: url(DEATH.png);padding: 0; }
+div.soulslike_knight_02_death::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+.soulslike_knight_03_death {max-width:512px; max-height:512px; }
+.soulslike_knight_03_death::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 0.09727626459143969% 99.90272373540856%;background-size: 300.78125% 300.78125%;background-image: url(DEATH.png);padding: 0; }
+div.soulslike_knight_03_death::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+.soulslike_knight_04_death {max-width:512px; max-height:512px; }
+.soulslike_knight_04_death::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 50% 0.09727626459143969%;background-size: 300.78125% 300.78125%;background-image: url(DEATH.png);padding: 0; }
+div.soulslike_knight_04_death::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+.soulslike_knight_05_death {max-width:512px; max-height:512px; }
+.soulslike_knight_05_death::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 99.90272373540856% 0.09727626459143969%;background-size: 300.78125% 300.78125%;background-image: url(DEATH.png);padding: 0; }
+div.soulslike_knight_05_death::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+.soulslike_knight_06_death {max-width:512px; max-height:512px; }
+.soulslike_knight_06_death::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 50% 50%;background-size: 300.78125% 300.78125%;background-image: url(DEATH.png);padding: 0; }
+div.soulslike_knight_06_death::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+.soulslike_knight_07_death {max-width:512px; max-height:512px; }
+.soulslike_knight_07_death::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 50% 99.90272373540856%;background-size: 300.78125% 300.78125%;background-image: url(DEATH.png);padding: 0; }
+div.soulslike_knight_07_death::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+.soulslike_knight_08_death {max-width:512px; max-height:512px; }
+.soulslike_knight_08_death::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 99.90272373540856% 50%;background-size: 300.78125% 300.78125%;background-image: url(DEATH.png);padding: 0; }
+div.soulslike_knight_08_death::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+
+/* $TexturePacker:SmartUpdate:2bad9a01d761651e4daa54f0fe5cfa99:359dcf6f2c3601ec29cfcecacd3bf13a:15cf08af47ce4fd9ec7506ed12033b32$ */

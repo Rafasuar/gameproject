@@ -1,0 +1,20 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.soulslike_knight_01_hurt {max-width:75px; max-height:52px; }
+.soulslike_knight_01_hurt::after {content: '\00a0';display: inline-block; width:75px; height:52px; background-position: 99.17355371900827% 16.666666666666668%;background-size: 261.3333333333333% 111.53846153846153%;background-image: url(HURT.png);padding: 0; }
+div.soulslike_knight_01_hurt::after {max-width:75px; width:100%;height:0;padding: 0 0 69.33333333333333% 0;}
+.soulslike_knight_02_hurt {max-width:48px; max-height:56px; }
+.soulslike_knight_02_hurt::after {content: '\00a0';display: inline-block; width:48px; height:56px; background-position: 0.6756756756756757% 50%;background-size: 408.3333333333333% 103.57142857142857%;background-image: url(HURT.png);padding: 0; }
+div.soulslike_knight_02_hurt::after {max-width:48px; width:100%;height:0;padding: 0 0 116.66666666666667% 0;}
+.soulslike_knight_03_hurt {max-width:69px; max-height:54px; }
+.soulslike_knight_03_hurt::after {content: '\00a0';display: inline-block; width:69px; height:54px; background-position: 39.37007874015748% 25%;background-size: 284.05797101449275% 107.4074074074074%;background-image: url(HURT.png);padding: 0; }
+div.soulslike_knight_03_hurt::after {max-width:69px; width:100%;height:0;padding: 0 0 78.26086956521739% 0;}
+
+/* $TexturePacker:SmartUpdate:6be3c30273bd5de5e1a1608ee2ae5187:0f9883a449a8527a3eb0a68c30d07981:dbf6018d0b6e00363ff94f687785284f$ */

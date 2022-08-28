@@ -1,0 +1,23 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.soulslike_knight_01_idle {max-width:75px; max-height:52px; }
+.soulslike_knight_01_idle::after {content: '\00a0';display: inline-block; width:75px; height:52px; background-position: 91.87898089171975% 49.51456310679612%;background-size: 937.3333333333334% 298.0769230769231%;background-image: url(IDLE.png);padding: 0; }
+div.soulslike_knight_01_idle::after {max-width:75px; width:100%;height:0;padding: 0 0 69.33333333333333% 0;}
+.soulslike_knight_02_idle {max-width:75px; max-height:53px; }
+.soulslike_knight_02_idle::after {content: '\00a0';display: inline-block; width:75px; height:53px; background-position: 8.121019108280255% 50%;background-size: 937.3333333333334% 292.45283018867923%;background-image: url(IDLE.png);padding: 0; }
+div.soulslike_knight_02_idle::after {max-width:75px; width:100%;height:0;padding: 0 0 70.66666666666667% 0;}
+.soulslike_knight_03_idle {max-width:73px; max-height:53px; }
+.soulslike_knight_03_idle::after {content: '\00a0';display: inline-block; width:73px; height:53px; background-position: 63.96825396825397% 50%;background-size: 963.013698630137% 292.45283018867923%;background-image: url(IDLE.png);padding: 0; }
+div.soulslike_knight_03_idle::after {max-width:73px; width:100%;height:0;padding: 0 0 72.6027397260274% 0;}
+.soulslike_knight_04_idle {max-width:75px; max-height:53px; }
+.soulslike_knight_04_idle::after {content: '\00a0';display: inline-block; width:75px; height:53px; background-position: 36.146496815286625% 50%;background-size: 937.3333333333334% 292.45283018867923%;background-image: url(IDLE.png);padding: 0; }
+div.soulslike_knight_04_idle::after {max-width:75px; width:100%;height:0;padding: 0 0 70.66666666666667% 0;}
+
+/* $TexturePacker:SmartUpdate:0a0fba57b9ee19b58271b1d430fe2211:b9924f125ea757b7802b8841fd535ab2:7c90273465f75434c7edb5b28edde850$ */

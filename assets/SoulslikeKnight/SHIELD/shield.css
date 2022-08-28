@@ -1,0 +1,17 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.soulslike_knight_01_shield {max-width:72px; max-height:51px; }
+.soulslike_knight_01_shield::after {content: '\00a0';display: inline-block; width:72px; height:51px; background-position: 1.36986301369863% 50%;background-size: 201.38888888888889% 103.92156862745098%;background-image: url(shield.png);padding: 0; }
+div.soulslike_knight_01_shield::after {max-width:72px; width:100%;height:0;padding: 0 0 70.83333333333333% 0;}
+.soulslike_knight_02_shield {max-width:70px; max-height:50px; }
+.soulslike_knight_02_shield::after {content: '\00a0';display: inline-block; width:70px; height:50px; background-position: 98.66666666666667% 33.333333333333336%;background-size: 207.14285714285714% 106%;background-image: url(shield.png);padding: 0; }
+div.soulslike_knight_02_shield::after {max-width:70px; width:100%;height:0;padding: 0 0 71.42857142857143% 0;}
+
+/* $TexturePacker:SmartUpdate:4573565245f72e1fc1b244bedc88255b:f20f1c7a8633b989c27c24deaef908d2:29279d44fc7fd75de69aa6d47bb781ce$ */

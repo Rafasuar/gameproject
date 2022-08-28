@@ -1,0 +1,20 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.soulslike_knight_01_jump {max-width:512px; max-height:512px; }
+.soulslike_knight_01_jump::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 0.09727626459143969% 50%;background-size: 300.78125% 100.390625%;background-image: url(JUMP.png);padding: 0; }
+div.soulslike_knight_01_jump::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+.soulslike_knight_02_jump {max-width:512px; max-height:512px; }
+.soulslike_knight_02_jump::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 50% 50%;background-size: 300.78125% 100.390625%;background-image: url(JUMP.png);padding: 0; }
+div.soulslike_knight_02_jump::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+.soulslike_knight_03_jump {max-width:512px; max-height:512px; }
+.soulslike_knight_03_jump::after {content: '\00a0';display: inline-block; width:512px; height:512px; background-position: 99.90272373540856% 50%;background-size: 300.78125% 100.390625%;background-image: url(JUMP.png);padding: 0; }
+div.soulslike_knight_03_jump::after {max-width:512px; width:100%;height:0;padding: 0 0 100% 0;}
+
+/* $TexturePacker:SmartUpdate:9a77b6de52da24bc48cfe3503a0fec38:848a70252d2a1b89de6d14061ba6a5d9:08f228a187f7002a699e0ae4eb584d32$ */

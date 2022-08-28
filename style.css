@@ -1,0 +1,80 @@
+:root{
+    --pixel-size: 3;
+}
+
+html { overflow-y: hidden; }
+
+body {
+    background-image: url("./assets/Forest/Preview/Background.png");
+    background-size: auto;
+    position: static;
+}
+
+.keybinds{
+    list-style: none;
+    background-color: slategrey;
+    display: inline-block;
+    border-style: groove;
+    border-color: darkslategrey;
+    position: absolute;
+    bottom: -25px;
+    text-align: left;
+    width: 90px;
+    height: 80px;
+
+}
+
+
+
+.player {
+    width: calc(55px * var(--pixel-size));
+    height: calc(55px * var(--pixel-size));
+    margin: 3px auto;
+    padding: 50px;
+    position: relative;
+    bottom: -400px;
+    left: -540px;
+    /* background-color: brown; */
+}
+
+
+/* .player_spritesheet_idle {
+
+    animation: moveSpriteSheet 1s steps(4) infinite;
+    /* width: calc(208px * var(--pixel-size)); */
+
+
+
+/* }
+.player_spritesheet_run{
+    animation: moveSpriteSheet 1s steps(6) infinite;
+    
+} */ 
+
+.troll {
+    height: calc(65px * var(--pixel-size));
+    width: calc(65px * var(--pixel-size));
+    transform: scaleX(-1);
+    margin: 3px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: -325px;
+    left: 450px;
+    
+}
+
+.troll_spritesheet_idle {
+    animation: moveSpriteSheet 1s steps(10) infinite;
+    
+
+}
+
+@keyframes moveSpriteSheet {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+
+    to {
+        transform: translate3d(-100%,0,0);
+    }
+} 
