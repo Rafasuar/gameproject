@@ -1,13 +1,9 @@
 window.addEventListener('load', function(){
     const context = document.getElementById('body')
     // const ctx = canvas.getContext('2d');
-
- 
-     let playerImage = document.getElementById('idle');
-        console.log(playerImage)
-    let player = document.querySelector('.player')
+//--Collisions--//
         function draw(){
-            a = document.querySelector('.game')
+           let a = document.querySelector('.game')
             a.style.width = 10+'px';
             a.style.height = h+'px';
             a.style.background = '#ccc';
@@ -33,7 +29,6 @@ window.addEventListener('load', function(){
               e.preventDefault();
               e = e.changedKeyPresses[0];
               x = e.pageX;
-              y = e.pageY;
               
               this.style.position = "fixed";
               c.style.display = 'block';
@@ -63,6 +58,7 @@ window.addEventListener('load', function(){
                   c.style.left = (cW+5) + "px";
                   c.style.top = (h-100) + "px";
                 }
+                console.log('.player')
               }
               
               //prevent left
@@ -125,9 +121,15 @@ window.addEventListener('load', function(){
           draw();
           move();
         }
-        
-    
-    
+//----//        
+
+
+//--Player--//    
+let playerImage = document.getElementById('idle');
+     console.log(playerImage)
+let player = document.querySelector('.player')
+
+
     window.addEventListener('keydown', e => {
         if(   e.key === 'a'){
 
@@ -156,7 +158,7 @@ window.addEventListener('load', function(){
             setTimeout( () => {
                     playerImage.src = './assets/SoulslikeKnight/IDLE/idle.gif';
             }, 1000)
-
+            
         }   //attack
     });
 
@@ -179,19 +181,115 @@ window.addEventListener('load', function(){
 
 
     });
-
+//----//
   
 
-    
-    function handlEnemies(){
 
+//--Troll--//
+let troll = document.querySelector('.troll');
+let trollImage = document.getElementById('trollId')
+    let direction = null;
+    function moveCharacter(x) {
+        if (direction === 'left'){
+            x -=1
+        }
+        if (direction === 'right'){
+            x += 1
+        }
+        troll.style.left = x + 'px'
+        
     }
 
+    setInterval(moveCharacter, 1)
 
+    function walkLeft(){
+        direction = 'left'
+        trollImage.src = './assets/FantasyTroll/Sprites/walk.gif'
+    }
+
+    function walkRight(){
+        direction = 'right'
+        trollImage.src = './assets/FantasyTroll/Sprites/walk.gif'
+    }
+
+    function idle(){
+        direction = null
+        trollImage.src = './assets/FantasyTroll/Sprites/Idle.png'
+    }
+
+    return {
+        trollImage: trollImage,
+        walkLeft: walkLeft,
+        walkRight: walkRight,
+        idle: idle
+    }
+    
+    
+//----//
   
+
 });
+    troll.walkLeft(1800)
+        .then(() => troll.walkRight(1200))
+        .then(() => troll.idle(2000))
+            .then((data) => {
+                console.log(data)
+                return troll.walkLeft(1000)
+            });
+              
+
+//---------- code that broke game/doesnt work correctly-------//
+ //  let troll = document.querySelector('.troll')
+    //  let trollImage = document.getElementById('trollIdle')
+    //     function enemy(x) {
+    //             troll.style.zIndex = 1;
+    //             let direction = null;
+                
+    //             function moveEnemy() {
+    //                 if (direction === 'left') {
+    //                     x -= 1
+                        
+    //                 }
+
+    //                 if (direction === 'right'){
+    //                     x+= 1
+    //                 }
+    //                 element.style.left = x + 'px'
+    //              }
+
+    //              setInterval(moveEnemy, 1)
+
+    //              function walkLeft() {
+    //                  direction = 'left'
+    //                  trollImage.src = './assets/FantasyTroll/Sprites/walk.png'
+    //              }
+    //              function walkRight() {
+    //                  direction = 'right'
+    //                  trollImage.src = './assets/FantasyTroll/Sprites/walk.png'
+    //              }
+    //              return {
+    //                  walkLeft: walkLeft,
+    //                  walkRight: walkRight
+    //              }
+
+    //          }
 
 
+    //     troll.walkLeft(1500)
+    //         .then(() => troll.walkRight(1200))
+    //             .then((data) => {
+    //                 console.log(data);
+    //             });
+
+    // let troll = document.querySelector('.troll')
+    // let trollBehavior = document.querySelector('.troll')
+    // function trollBehavior(troll){
+    // troll.d += 0.05;
+
+    // troll.x = troll.anchor_x + Math.cos(troll.d) * troll.range;
+    // troll.y = trol.anchor_y + Math.sin(troll.d) * troll.range * 0.5;
+    // }
+   
 // function isCollide(a, b) {
             //     return !(
             //         ((a.y + a.height) < (b.y)) ||
